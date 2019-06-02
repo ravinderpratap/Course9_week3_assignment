@@ -1,0 +1,43 @@
+---
+title: "Chile Voting Predictor"
+author: "RP"
+date: "June 2, 2019"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Chile Voting Predictor Introduction
+
+The Voting predictor is build for Chile Population based on the `Chile` dataset. This dataset contains following information:
+
+- **region** : A factor with levels: `C` Central `M` Metropolitan Santiago area `N` North `S` South  `SA` city of Santiago.
+- **population** : Population size of respondent's community.
+- **sex** : A factor with levels: `F` female `M` male.
+- **age** : in years.
+- **education** : A factor with levels (note: out of order): `P` Primary `PS` Post-secondary `S` Secondary.
+- **income** : Monthly income, in Pesos.
+- **statusquo** : Scale of support for the status-quo.
+- **vote** : a factor with levels: `A` will abstain `N` will vote no (against Pinochet) `U` undecided `Y` will vote yes (for Pinochet).
+
+## Prediction Model
+
+- App is built using Shiny server and deployed on Shiny apps.
+- `ui.R` and `server.R` code is stored on github repository.
+- This presentation is build using R Slidify option. code is stored in github Repository.
+- `server.R` contains 2 functions:
+
+  1. `chile_predict` function : This function runs the randomforest classification after data cleansing and predicts what action voter will take.
+  2. `chile_plot` function : This function plots existing pattern of Chile voter and then using classification current voter prediction is displayed.
+
+## Slide link for Github Repository
+
+### ui.R and server.R code is stored in Github Repository : https://github.com/ravinderpratap/Course9_week3_assignment in Chile_Voting_Predictor Folder
+
+## Slide link for shiny Apps
+
+### Shiny App webpage : https://rpsingh85.shinyapps.io/Chile_Voting_Predictor/
+
+
