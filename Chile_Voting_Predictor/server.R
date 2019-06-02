@@ -63,6 +63,7 @@ chile_predict <- function(df){
 }
 
 # Function to plot it
+#' Chile Prediction model to draw the plot
 #' @param df, dataframe to specify the details captured from Application options
 #' @return g1, ggplot output containg the graphical representation of the prediction over existing population.
 #' 
