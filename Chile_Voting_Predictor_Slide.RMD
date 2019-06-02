@@ -40,4 +40,6 @@ The Voting predictor is build for Chile Population based on the `Chile` dataset.
 
 ### Shiny App webpage : https://rpsingh85.shinyapps.io/Chile_Voting_Predictor/
 
+![screenshot](C:\Users\r.pratap.singh\Desktop\R\Chile_Prediction.jpg)
+
 
